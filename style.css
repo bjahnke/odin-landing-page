@@ -21,7 +21,7 @@ body {
 
 .content {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     padding-top: 10%;
 }
 
@@ -30,6 +30,7 @@ body {
     flex-direction: column;
     flex: 1;
     align-items: flex-start;
+    gap: 8px;
 }
 
 img {
@@ -41,6 +42,11 @@ img {
 
 button {
     flex-basis: 24px;
+    width: 75px;
+    border-radius: 8px;
+    background-color: #2882F6;
+    color: #F9FAF8;
+    border: 0;
 }
 
 .header ul {
