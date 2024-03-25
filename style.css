@@ -1,25 +1,47 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
-.header, .footer {
+#top-container {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 15% 15%;
+
 }
+
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-ul {
-    list-style: none;
+.content {
+    display: flex;
+    gap: 8px;
+    padding-top: 10%;
 }
 
-a {
-    text-decoration: none;
-    margin: 8px;
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: flex-start;
+}
+
+img {
+    flex: 1;
+}
+
+button {
+    flex-basis: 24px;
+}
+
+.header ul {
+    display: flex;
 }
 
 .header #logo {
@@ -27,12 +49,24 @@ a {
     color: #F9FAF8;
 }
 
-a {
+.content .sign-up .title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.content .sign-up .description, a {
     font-size: 18px;
     color: #E5E7EB;
 }
 
-.header ul {
-    display: flex;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+a {
+    text-decoration: none;
+    margin: 8px;
 }
