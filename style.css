@@ -1,3 +1,7 @@
+* {
+    font-family: roboto;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -111,7 +115,7 @@ img {
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 100;
     color: #1F2937;
 }
 
